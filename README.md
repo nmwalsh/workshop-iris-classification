@@ -1,4 +1,4 @@
-[![Datmo Model](https://datmo.com/anands/iris-classification/badge.svg)](https://datmo.com/anands/iris-classification)
+[![Datmo Model](https://datmo.com/shabazp/workshop-iris-classification/badge.svg)](https://datmo.com/shabazp/workshop-iris-classification)
 
 # iris-classification
 
