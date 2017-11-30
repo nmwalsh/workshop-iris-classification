@@ -5,6 +5,7 @@ import json
 import pickle
 import pandas as pd
 import random
+import collections
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 random.seed(3)
@@ -26,16 +27,11 @@ config_dict = {
 		"test_split": 0.4
 	},
 	"model": {
-		"function": "RandomForestClassifier",
+		"function": "KNeighborsClassifier",
 		"KNeighborsClassifier": {
 			"n_neighbors": 4,
 			"algorithm": "ball_tree",
 			"leaf_size": 50
-		},
-		"RandomForestClassifier": {
-			"max_depth": 5,
-			"n_estimators": 10,
-			"max_features": 1
 		}
 	}
 }
