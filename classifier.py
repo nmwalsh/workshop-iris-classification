@@ -23,15 +23,15 @@ import timeit
 config_dict = {
 	"data": {
 		"shuffle": True,
-		"train_split": 0.6,
-		"test_split": 0.4
+		"train_split": 0.65,
+		"test_split": 0.35
 	},
 	"model": {
-		"function": "KNeighborsClassifier",
-		"KNeighborsClassifier": {
-			"n_neighbors": 4,
-			"algorithm": "ball_tree",
-			"leaf_size": 50
+		"function": "RandomForestClassifier",
+		"RandomForestClassifier": {
+			"max_depth": 7,
+			"n_estimators": 7,
+			"max_features": 2
 		}
 	}
 }
