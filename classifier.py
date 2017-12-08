@@ -29,7 +29,7 @@ config_dict = {
 	"model": {
 		"function": "RandomForestClassifier",
 		"RandomForestClassifier": {
-			"max_depth": 7,
+			"max_depth": 9,
 			"n_estimators": 7,
 			"max_features": 2
 		}
